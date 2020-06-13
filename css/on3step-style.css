@@ -1229,7 +1229,7 @@ sup.subtour{
 }
 
 
-.reviews {
+.showroom {
     width: 100%;
 	color: #fff;
     background: url(../img/bg-search.jpg);
@@ -1237,6 +1237,19 @@ sup.subtour{
     background-size: cover;
     background-position: center;
 }
+
+.reviews {
+    width: 100%;
+	color: #fff;
+    background-color: #202020;
+/*
+    background: url(../img/bg-search.jpg);
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+*/
+}
+
 
 .frm-clean{
     position: relative;
@@ -3941,7 +3954,16 @@ a:hover,
     aside .widget, .widget {
         padding: 20px;
     }
+    .wrap-subfooter {
+        text-align: center;
+    }
 
+}
+
+@media only screen and (max-width: 990px) {
+    .wrap-subfooter {
+        text-align: center;
+    }
 }
 
 .clear {
@@ -3961,7 +3983,12 @@ a:hover,
     }
 }
 
-
+.home-img-thumb {
+    width: 160px;
+    display: inline-block;
+    margin: 10px 20px 10px 0px;
+    border: 1px solid #fff;
+}
 
 
 
